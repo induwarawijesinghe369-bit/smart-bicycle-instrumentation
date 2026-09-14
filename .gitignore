@@ -23,3 +23,8 @@ Thumbs.db
 # Data exports
 data/*.csv
 !data/.gitkeep
+
+# Firmware secrets — never commit
+config.h
+secrets.h
+wifi_credentials.h
