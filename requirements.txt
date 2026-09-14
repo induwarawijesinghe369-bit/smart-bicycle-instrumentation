@@ -1,0 +1,15 @@
+# Firebase (Admin SDK — for offline export / batch analysis)
+firebase-admin>=6.4.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Plotting (used by analysis scripts and the report figures)
+matplotlib>=3.7.0
+
+# HTTP client for pulling raw JSON from the RTDB REST endpoint
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
