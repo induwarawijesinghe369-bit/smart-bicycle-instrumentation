@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Arduino / ESP32
+build/
+*.bin
+*.elf
+
+# Secrets — never commit these
+config.h
+secrets.h
+wifi_credentials.h
+serviceAccountKey.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data exports
+data/*.csv
+!data/.gitkeep
